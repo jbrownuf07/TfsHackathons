@@ -1,0 +1,17 @@
+{
+    "contents" : "\n\nlibrary(RCurl)\nrequire(jsonlite)\n\nsource('functions.R')\n\nserverAddress <- 'https://vjs06p01f8.execute-api.us-east-1.amazonaws.com/xtopia'\nid <- '91e4da90-7b35-4e41-b45f-8cada43a8d6d'\n\nxics <- fromJSON(paste(serverAddress, 'clusters', id, sep = '/'))[[1]]\nnames(xics)\nggplot(data = xics, aes(x = RT, y = Intensity, group = 1)) + geom_line()\n\nfeatures <- fromJSON(paste(serverAddress, 'features', id, sep = '/'))[[1]]\nclass(features)\nhead(features)\n\np <- qplot(Width, data=features, geom=\"histogram\")\n\nggplotly(p)\n\ntmp <- fromJSON('https://vjs06p01f8.execute-api.us-east-1.amazonaws.com/xtopia/measurements')\nhead(tmp)\n\n",
+    "created" : 1450470541302.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "104459992",
+    "id" : "E61C8380",
+    "lastKnownWriteTime" : 1450477689,
+    "path" : "~/Documents/R_Projects/Shiny_Apps/ShinyIsotopeClusteringViz/scratch.R",
+    "project_path" : "scratch.R",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,18 @@
+{
+    "contents" : ".main-header .logo {\n  font-family: \"Georgia\", Times, \"Times New Roman\", serif;\n  font-weight: bold;\n  font-size: 24px;\n}",
+    "created" : 1449857625012.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "189074847",
+    "id" : "1FA411F0",
+    "lastKnownWriteTime" : 1449857638,
+    "path" : "C:/ussjo_tfs13/SciLibApp/Development/Dev-Joe/RPackages/ShinyIsotopeClusteringViz/www/custom.css",
+    "project_path" : "www/custom.css",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "css"
+}

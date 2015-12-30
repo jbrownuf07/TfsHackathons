@@ -1,0 +1,18 @@
+{
+    "contents" : "\n\nlibrary(RCurl)\nrequire(jsonlite)\n\nsource('functions.R')\n\ntmp <- fromJSON('https://vjs06p01f8.execute-api.us-east-1.amazonaws.com/xtopia/measurements')\nclass(tmp)\n",
+    "created" : 1449862830673.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3044363348",
+    "id" : "3A23CB29",
+    "lastKnownWriteTime" : 1449863164,
+    "path" : "C:/ussjo_tfs13/SciLibApp/Development/Dev-Joe/RPackages/ShinyIsotopeClusteringViz/scratch.R",
+    "project_path" : "scratch.R",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

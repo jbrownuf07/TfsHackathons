@@ -1,0 +1,18 @@
+{
+    "contents" : "\n\ngetPeaksFromServer <- function(id) {\n  # peaks <- fromJSON('https://vjs06p01f8.execute-api.us-east-1.amazonaws.com/xtopia/demopeaks/91e4da90-7b35-4e41-b45f-8cada43a8d6d')\n  peaks <- fromJSON(cat('https://vjs06p01f8.execute-api.us-east-1.amazonaws.com/xtopia/features/', id, sep = ''))\n  peaks\n}\n",
+    "created" : 1449859561371.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3551358582",
+    "id" : "197F2011",
+    "lastKnownWriteTime" : 1449879366,
+    "path" : "C:/ussjo_tfs13/SciLibApp/Development/Dev-Joe/RPackages/ShinyIsotopeClusteringViz/functions.R",
+    "project_path" : "functions.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
